@@ -16,6 +16,7 @@ class Board:
                 col.append(None)
             self.__positions__.append(col)
 
+        #torres
         self.__positions__[0][0] = Rook("BLACK") # Black
         self.__positions__[0][7] = Rook("BLACK") # Black
         self.__positions__[7][7] = Rook("WHITE") # White
